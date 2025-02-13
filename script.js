@@ -1,4 +1,8 @@
 function showSurprise() {
-    document.getElementById("surprise").classList.remove("hidden");
+    document.getElementById("letter-overlay").classList.remove("hidden");
+}
+
+function closeLetter() {
+    document.getElementById("letter-overlay").classList.add("hidden");
 }
 
